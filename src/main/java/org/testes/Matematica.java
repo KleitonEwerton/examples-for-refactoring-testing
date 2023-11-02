@@ -1,6 +1,6 @@
 package org.testes;
 
-public class Matematica {
+public class Matematica extends Utilitario {
 
     String nomeFuncao;
 

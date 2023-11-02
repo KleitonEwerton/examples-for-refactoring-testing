@@ -1,6 +1,6 @@
 package org.testes;
 
-public class Geometria {
+public class Geometria extends Utilitario{
 
     String nomeGeometria;
 

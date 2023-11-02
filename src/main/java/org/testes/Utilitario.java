@@ -7,4 +7,7 @@ public class Utilitario {
     public Utilitario(String nome) {
         this.nome = nome;
     }
+    public Utilitario() {
+
+    }
 }

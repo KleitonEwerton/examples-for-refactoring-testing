@@ -6,5 +6,7 @@ public class Forma {
     public Forma(int area) {
         this.area = area;
     }
+    public Forma() {
 
+    }
 }

@@ -1,6 +1,6 @@
 package org.testes;
 
-public class Retangulo {
+public class Retangulo extends Forma{
 
     int lados;
 
