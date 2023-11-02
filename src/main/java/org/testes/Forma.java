@@ -9,4 +9,12 @@ public class Forma {
     public Forma() {
 
     }
+
+    public int getArea() {
+        return area;
+    }
+
+    public void setArea(int area) {
+        this.area = area;
+    }
 }
