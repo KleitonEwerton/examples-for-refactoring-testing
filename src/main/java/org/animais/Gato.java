@@ -1,6 +1,6 @@
 package org.animais;
 
-public class Gato {
+public class Gato extends Animal{
     String nome;
 
     public Gato(String nome) {
