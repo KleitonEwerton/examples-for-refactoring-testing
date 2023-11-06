@@ -6,21 +6,21 @@ public class Gato {
     public Gato(String nome) {
         this.nome = nome;
     }
-    public static void falar(){
+    public void falar(){
         System.out.println("falei");
     }
-    public static void andar(){
+    public void andar(){
         System.out.println("andei");
     }
 
-    public static void voar(){
+    public void voar(){
         System.out.println("não tenho asas");
     }
 
-    public static void nadar(){
+    public void nadar(){
         System.out.println("nadando");
     }
-    public static void seguir(){
+    public void seguir(){
         System.out.println("seguindo");
     }
 }

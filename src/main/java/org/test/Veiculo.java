@@ -38,27 +38,8 @@ class Veiculo {
         return partidaEletrica;
     }
 
-    public void acelerar() {
-        System.out.println("Veículo acelerando");
-    }
 
-    public void frear() {
-        System.out.println("Veículo freando");
-    }
 
-    public void ligar() {
-        System.out.println("Veículo ligado");
-    }
 
-    public void desligar() {
-        System.out.println("Veículo desligado");
-    }
 
-    public void carregar() {
-        System.out.println("Veículo carregando");
-    }
-
-    public void descarregar() {
-        System.out.println("Veículo descarregando");
-    }
 }

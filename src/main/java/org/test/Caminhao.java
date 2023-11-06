@@ -5,4 +5,12 @@ class Caminhao extends Veiculo {
         super(marca, modelo, ano);
 
     }
+
+    public void carregar() {
+        System.out.println("Veículo carregando");
+    }
+
+    public void descarregar() {
+        System.out.println("Veículo descarregando");
+    }
 }

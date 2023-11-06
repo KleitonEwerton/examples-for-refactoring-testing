@@ -5,4 +5,12 @@ class Moto extends Veiculo {
         super(marca, modelo, ano);
 
     }
+
+    public void ligar() {
+        System.out.println("Veículo ligado");
+    }
+
+    public void desligar() {
+        System.out.println("Veículo desligado");
+    }
 }

@@ -18,19 +18,6 @@ public class Utilitario {
         System.out.println(frase);
     }
 
-    static void contarAte10(){
-        for(int i =0; i <10;i += 1){
-            System.out.println(i);
-        }
-    }
-
-    static void contarAte20(){
-        for(int i =0; i <20;i += 1){
-            System.out.println(i);
-        }
-    }
-
-
 
     static void contarAte(int x){
         for(int i =0; i <x;i += 1){
