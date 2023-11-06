@@ -2,14 +2,14 @@ package org.testes;
 
 public class Animal {
     String nome;
-    double idade;
+    int idade;
     String tipo;
 
     public String getNome() {
         return nome;
     }
 
-    public double getIdade() {
+    public int getIdade() {
         return idade;
     }
 
@@ -21,7 +21,7 @@ public class Animal {
         this.nome = nome;
     }
 
-    public void setIdade(double idade) {
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 

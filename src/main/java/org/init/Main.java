@@ -6,17 +6,17 @@ public class Main {
     public static void main(String[] args) {
 
 
-        falar("Eu sou uma frase", "João");
+        falarFrase("Eu sou uma frase", "João");
 
-        notificar("Mensagem");
+        notificarComFrase("Mensagem");
 
     }
 
-    public static String falar(String frase, String pessoa){
+    public static String falarFrase(String frase, String pessoa){
         return "A pessoa "+ pessoa +" esta falando que: " + frase;
     }
 
-    public static void notificar(String extra){
+    public static void notificarComFrase(String extra){
         System.out.println("Eu sou uma notificação! "+extra);
     }
 
