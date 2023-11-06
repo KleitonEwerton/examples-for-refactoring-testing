@@ -1,9 +1,9 @@
 package org.testes;
 
 public class Circulo extends Forma{
-    int raio;
+    double raio;
 
-    public Circulo(int raio) {
+    public Circulo(double raio) {
         super();
         this.raio = raio;
     }
