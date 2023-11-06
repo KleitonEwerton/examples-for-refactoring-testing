@@ -1,4 +1,4 @@
-package org.testes;
+package org.test;
 class Veiculo {
     private String marca;
     private String modelo;

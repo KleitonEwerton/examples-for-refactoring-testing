@@ -1,4 +1,4 @@
-package org.mat;
+package org.matem;
 
 public class Forma {
     double area;

@@ -1,4 +1,4 @@
-package org.testes;
+package org.test;
 
 class Moto extends Veiculo {
     private boolean partidaEletrica;

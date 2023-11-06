@@ -1,4 +1,4 @@
-package org.testes;
+package org.test;
 // Subclasse Carro
 class Carro extends Veiculo {
     private int portas;

@@ -1,6 +1,4 @@
-package org.mat;
-
-import org.mat.Forma;
+package org.matem;
 
 public class Circulo extends Forma {
     int raio;

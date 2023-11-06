@@ -1,6 +1,4 @@
-package org.mat;
-
-import org.mat.Utilitario;
+package org.matem;
 
 public class Geometria extends Utilitario {
 

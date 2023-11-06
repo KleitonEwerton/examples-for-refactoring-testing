@@ -1,4 +1,4 @@
-package org.testes;
+package org.test;
 
 class Caminhao extends Veiculo {
     private int capacidadeCarga;
