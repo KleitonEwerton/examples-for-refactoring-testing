@@ -30,11 +30,7 @@ public class Utilitario {
         }
     }
 
-    static void contarAte30(){
-        for(int i =0; i <30;i += 1){
-            System.out.println(i);
-        }
-    }
+
 
     static void contarAte(int x){
         for(int i =0; i <x;i += 1){
@@ -48,5 +44,10 @@ public class Utilitario {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+    static void contarAte30(){
+        for(int i =0; i <30;i += 1){
+            System.out.println(i);
+        }
     }
 }
