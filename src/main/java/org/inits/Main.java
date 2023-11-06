@@ -1,4 +1,4 @@
-package org.init;
+package org.inits;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -6,17 +6,17 @@ public class Main {
     public static void main(String[] args) {
 
 
-        falarFrase("Eu sou uma frase", "João");
+        falarFrase2("Eu sou uma frase", "João");
 
-        notificarComFrase("Mensagem");
+        notificarComFrase2("Mensagem");
 
     }
 
-    public static String falarFrase(String frase, String pessoa){
+    public static String falarFrase2(String frase, String pessoa){
         return "A pessoa "+ pessoa +" esta falando que: " + frase;
     }
 
-    public static void notificarComFrase(String extra){
+    public static void notificarComFrase2(String extra){
         System.out.println("Eu sou uma notificação! "+extra);
     }
 
