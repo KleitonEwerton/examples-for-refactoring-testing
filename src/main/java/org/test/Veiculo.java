@@ -1,8 +1,12 @@
 package org.test;
+// Classe principal Veiculo
 class Veiculo {
     private String marca;
     private String modelo;
     private int ano;
+    private int capacidadeCarga;
+    private int portas;
+    private boolean partidaEletrica;
 
     public Veiculo(String marca, String modelo, int ano) {
         this.marca = marca;
@@ -10,7 +14,6 @@ class Veiculo {
         this.ano = ano;
     }
 
-    // Métodos na versão 2 (após a refatoração)
     public String getMarca() {
         return marca;
     }
@@ -21,5 +24,41 @@ class Veiculo {
 
     public int getAno() {
         return ano;
+    }
+
+    public int getCapacidadeCarga() {
+        return capacidadeCarga;
+    }
+
+    public int getPortas() {
+        return portas;
+    }
+
+    public boolean hasPartidaEletrica() {
+        return partidaEletrica;
+    }
+
+    public void acelerar() {
+        System.out.println("Veículo acelerando");
+    }
+
+    public void frear() {
+        System.out.println("Veículo freando");
+    }
+
+    public void ligar() {
+        System.out.println("Veículo ligado");
+    }
+
+    public void desligar() {
+        System.out.println("Veículo desligado");
+    }
+
+    public void carregar() {
+        System.out.println("Veículo carregando");
+    }
+
+    public void descarregar() {
+        System.out.println("Veículo descarregando");
     }
 }
