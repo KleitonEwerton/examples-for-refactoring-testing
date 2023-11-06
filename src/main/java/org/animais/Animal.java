@@ -1,4 +1,4 @@
-package org.testes;
+package org.animais;
 
 public class Animal {
     String nome;

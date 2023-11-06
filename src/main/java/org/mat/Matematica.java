@@ -1,4 +1,4 @@
-package org.testes;
+package org.mat;
 
 public class Matematica extends Utilitario {
 

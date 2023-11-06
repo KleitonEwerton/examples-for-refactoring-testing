@@ -1,6 +1,8 @@
-package org.testes;
+package org.mat;
 
-public class Retangulo extends Forma{
+import org.mat.Forma;
+
+public class Retangulo extends Forma {
 
     int lados;
 

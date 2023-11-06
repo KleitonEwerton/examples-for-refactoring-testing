@@ -1,6 +1,8 @@
-package org.testes;
+package org.mat;
 
-public class Geometria extends Utilitario{
+import org.mat.Utilitario;
+
+public class Geometria extends Utilitario {
 
     String nomeGeometria;
 
