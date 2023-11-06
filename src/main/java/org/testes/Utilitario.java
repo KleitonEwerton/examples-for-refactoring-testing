@@ -4,8 +4,11 @@ public class Utilitario {
 
     String nome;
 
-    public Utilitario(String nome) {
+    int representacao;
+
+    public Utilitario(String nome, int rep) {
         this.nome = nome;
+        this.representacao = rep;
     }
     public Utilitario() {
 

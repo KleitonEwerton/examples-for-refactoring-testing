@@ -9,19 +9,19 @@ public class Matematica extends Utilitario {
         this.nomeFuncao = nomeFuncao;
     }
 
-    public static double soma(int a, int b){
+    public static double soma(double a, double b){
         return a + b;
     }
 
-    public static double divisaoInteira(double a, double b){
+    public static double divisaoInteira(int a, int b){
         return a/b;
     }
 
-    public static int subtracao(int a, int b){
+    public static double subtracao(double a, double b){
         return a - b;
     }
 
-    public static int multiplicacao(int a, int b){
+    public static double multiplicacao(double a, double b){
         return a * b;
     }
 

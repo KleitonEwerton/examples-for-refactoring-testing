@@ -7,4 +7,12 @@ public class Retangulo extends Forma{
     public Retangulo(int lados) {
         this.lados = lados;
     }
+
+    public int getLados() {
+        return lados;
+    }
+
+    public void setLados(int lados) {
+        this.lados = lados;
+    }
 }

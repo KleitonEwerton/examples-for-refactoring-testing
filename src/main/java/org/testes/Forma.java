@@ -1,20 +1,20 @@
 package org.testes;
 
 public class Forma {
-    double area;
+    int area;
 
-    public Forma(double area) {
+    public Forma(int area) {
         this.area = area;
     }
     public Forma() {
 
     }
 
-    public double getArea() {
+    public int getArea() {
         return area;
     }
 
-    public void setArea(double area) {
+    public void setArea(int area) {
         this.area = area;
     }
 }
