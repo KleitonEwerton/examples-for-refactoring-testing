@@ -8,6 +8,7 @@ public class Circulo extends Forma {
         this.raio = raio;
     }
 
+    // this is comment
     public int getRaio() {
         return raio;
     }

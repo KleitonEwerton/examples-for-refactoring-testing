@@ -12,4 +12,6 @@ public class testes {
      * block
      * comments
      */
+
+     String nao;
 }
