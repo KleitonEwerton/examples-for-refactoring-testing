@@ -6,15 +6,16 @@ public class Forma {
     public Forma(double area) {
         this.area = area;
     }
+
     public Forma() {
 
     }
 
-    public double getArea() {
+    public double getAreatotal() {
         return area;
     }
 
-    public void setArea(double area) {
+    public void setAreatotal(double area) {
         this.area = area;
     }
 }
