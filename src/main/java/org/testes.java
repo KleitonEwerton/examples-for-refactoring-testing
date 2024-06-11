@@ -7,11 +7,31 @@ public class testes {
 
     /* this is commente */
 
-    int line = 9;
+    private int line;
     /*
      * block
      * comments
      */
 
-     String nao;
+    // line
+    /**
+     *
+     */
+    private String line;
+
+    public int getLine() {
+        return line;
+    }
+
+    public void setLine(int line) {
+        this.line = line;
+    }
+
+    public int getLine() {
+        return line;
+    }
+
+    public void setLine(int line) {
+        this.line = line;
+    }
 }
