@@ -14,6 +14,9 @@ public class testes {
      */
 
     // line
+    /**
+     *
+     */
     private String line;
 
     public int getLine() {
