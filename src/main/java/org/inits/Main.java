@@ -5,19 +5,18 @@ package org.inits;
 public class Main {
     public static void main(String[] args) {
 
-
         falarFrase2("Eu sou uma frase", "João");
 
         notificarComFrase2("Mensagem");
 
     }
 
-    public static String falarFrase2(String frase, String pessoa){
-        return "A pessoa "+ pessoa +" esta falando que: " + frase;
+    public static String falarFrase2(String frase, String pessoa) {
+        return "A pessoa " + pessoa + " esta falando que: " + frase;
     }
 
-    public static void notificarComFrase2(String extra){
-        System.out.println("Eu sou uma notificação! "+extra);
+    public static void notificarComFrase2(String extra) {
+        System.out.println("Eu sou uma notificação! " + extra);
     }
 
 }
