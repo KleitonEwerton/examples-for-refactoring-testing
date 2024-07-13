@@ -5,9 +5,10 @@ public class Animal {
     int idade;
     String tipo;
 
-    public Animal(String nome){
-    this.nome = nome;
+    public Animal(String nome) {
+        this.nome = nome;
     }
+
     public String getNome() {
         return nome;
     }
@@ -32,21 +33,29 @@ public class Animal {
         this.tipo = tipo;
     }
 
-    public void falar(){
-        System.out.println("falei");
-    }
-    public void andar(){
-        System.out.println("andei");
+    // Emiti som
+    public void emitirSom() {
+        System.out.println("Emiti som");
     }
 
-    public void voar(){
+    /*
+     * 
+     * caminhei
+     * ssd
+     */
+    public void caminhar() {
+        System.out.println("caminhei");
+    }
+
+    public void voar() {
         System.out.println("não tenho asas");
     }
 
-    public void nadar(){
+    public void nadar() {
         System.out.println("nadando");
     }
-    public void seguir(){
+
+    public void seguir() {
         System.out.println("seguindo");
     }
 }
