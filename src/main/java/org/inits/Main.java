@@ -5,16 +5,14 @@ package org.inits;
 public class Main {
     public static void main(String[] args) {
 
-        // This is a comment
-        falarFrase("Eu sou uma frase", "João");
+        falarFrase2("Eu sou uma frase", "João");
 
         notificarComFrase2("Mensagem");
 
     }
 
-    // this is orphan comment
     // this is comment
-    public static String falarFrase(String frase, String pessoa) {
+    public static String falarFrase2(String frase, String pessoa) {
         return "A pessoa " + pessoa + " esta falando que: " + frase;
     }
 
